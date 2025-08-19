@@ -26,8 +26,8 @@ export default function Header() {
             <Link to="/" className="flex items-center space-x-3 focus:outline-none">
               {/* Logo Image */}
               <img
-                src="https://via.placeholder.com/50x50?text=Logo"
-                alt="ONLINE CYBER Logo"
+                src="/logo.jpg"
+                alt="WAMU BRANDS Logo"
                 className="h-10 w-10 rounded-md object-cover"
                 loading="lazy"
               />
