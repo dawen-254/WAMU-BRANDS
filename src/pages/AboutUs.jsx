@@ -100,7 +100,7 @@ export default function AboutUs() {
             </div>
             <div className="relative h-64 lg:h-auto">
               <img
-                src="https://via.placeholder.com/800x600?text=Online+Cyber+Office"
+                src="/about.jpg"
                 alt="Online Cyber Office"
                 className="w-full h-full object-cover"
                 loading="lazy"
