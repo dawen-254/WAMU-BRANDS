@@ -4,7 +4,7 @@ import React from 'react';
 const Product = ({ product }) => {
   const handleBuyNow = () => {
     const message = `Hi! I'm interested in buying the ${product.name} (Product ID: ${product.id}) for KSh ${product.price.toLocaleString()}. Please let me know how to proceed with the purchase.`;
-    const whatsappUrl = `https://wa.me/254700000000?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/254797537766?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

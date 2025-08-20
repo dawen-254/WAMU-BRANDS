@@ -23,7 +23,7 @@ const Home = () => {
       <section className="py-16 lg:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-white-900 mb-4">
               Featured Products
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
@@ -31,7 +31,7 @@ const Home = () => {
             </p>
             <a
               href="/shop" // Edit this link as needed
-              className="bg-blue-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors inline-block shadow-md hover:shadow-lg"
+              className="bg-green-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-white-600 transition-colors inline-block shadow-md hover:shadow-lg"
             >
               View All Products
             </a>
@@ -151,7 +151,7 @@ const Home = () => {
             />
             <a
               href="/newsletter-signup" // Edit this link as needed
-              className="bg-blue-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors inline-block whitespace-nowrap"
+              className="bg-green-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-white-600 transition-colors inline-block whitespace-nowrap"
             >
               Subscribe
             </a>
